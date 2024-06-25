@@ -1,18 +1,8 @@
 [package]
-name = "frpc"
+name = "frps"
 version = "0.1.0"
 edition = "2021"
-
-[workspace]
-members = ["src/bin/frps"]
-#members = ["src/bin/frps"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rand = "0.9.0-alpha.1"
-
-
-
-[profile.release]
-lto = true
